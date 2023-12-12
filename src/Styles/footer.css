@@ -1,0 +1,33 @@
+@import './Constantes.css';
+
+/*estilo del footer*/
+.footer {
+
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+  width: 100%;
+  background-color: var(--naranja);
+}
+
+.grupo {
+  display: flex;
+  flex-direction: row;
+}
+
+.lista-grupo {
+  padding: 0;
+  margin: 20px;
+  justify-content: center;
+}
+
+.lista-grupo_alumno {
+  font-family: var(--font-family--fantansy);
+  margin-left: 9%;
+  font-size: 0.9em;
+}
+
+.footer-titulo {
+  font-size: 2em;
+  text-shadow: 2px 2px white;
+}

@@ -1,0 +1,45 @@
+@import './encabezado.css';
+@import './footer.css';
+@import './Constantes.css';
+@import './Responsive.css';
+@import './Contenido.css';
+
+
+/*sacarle los estilos al archivo*/
+body {
+  margin: 0;
+  padding: 0;
+  background: #0074d9;
+  font-family: Arial, sans-serif;
+  
+}
+/*estilos por etiquetas*/
+ul {
+  list-style: none;
+}
+
+.icon {
+  height: 5vh;
+}
+.contenedor-producto {
+
+  height: 50vh;
+  text-align: center;
+margin: 20px;  
+}
+
+.productos {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  max-width: 300px;
+  text-align: left;
+  display: inline-block;
+  background-color: aquamarine;
+}
+
+.producto-detalle {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}

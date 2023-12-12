@@ -1,0 +1,10 @@
+ /*Mostrar cuando es menor a 500px*/
+ .contenido {
+    position: fixed;
+    top: 50px;
+    display: none;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    width: 100%;
+  }

@@ -1,0 +1,274 @@
+
+/*sacarle los estilos al archivo*/
+body {
+    margin: 0;
+    padding: 0;
+    background: #0074d9;
+    font-family: Arial, sans-serif;
+    
+  }
+  /*estilos por etiquetas*/
+  ul {
+    list-style: none;
+  }
+  
+  .icon {
+    height: 5vh;
+  }
+
+  .ejercicio1-01_h2 {
+    border: 3px solid white;
+    margin: 30px auto;
+    background-color: gray;
+    width:50%;
+}
+
+.ejercicio1-01_p1 {
+    
+COLOR: black;
+    background-color: var(--naranja);
+    text-align: left;
+    font-size: larger;
+    font-family: fantasy;
+    border-radius: 40px 40px 0px 0px;
+    margin: auto;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    
+    width: 70%;
+    padding: 10px;
+}
+.ejercicio1-01_p2 {
+    COLOR: black;
+    background-color: var(--naranja);
+    text-align: left;
+    font-size: larger;
+    font-family: var(--font-family--fantansy);
+    border-radius: 0px 0px 40px 40px;
+    margin: auto;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    
+    width: 70%;
+    padding: 10px;
+}
+/*estilos seccion ejericio 1*/
+.ejercicio1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+/*contenedor de imagenes*/
+.ejercicio1-imagenes {
+    display: flex;
+    background-color: var(--naranja);
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 40px 40px;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+
+.ejercicio1-parrafo {
+    color: black;
+    padding: 20px;
+    font-family: var(--font-family--fantansy);
+    margin: auto;
+    height: 100%;
+    width: 70%;
+    background-color: var(--naranja);
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    border-radius: 40px 40px 0px 0px;
+    
+
+}
+
+.ejercicio1-parrafo_p {
+    color: black;
+    font-size: large;
+    font-style: oblique;
+    margin: 10px;
+}
+
+.ejercicio1-parrafo_titulo {
+    color: black;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 2px 2px white;
+}
+
+.ejercicio1-imagenes_imagen {
+    border-radius: 50px;
+    box-shadow: 5px 5px black;
+    margin: auto;
+    height: 80%;
+    width: 30%;
+    border: 5px dotted var(--azul);
+}
+
+.ejercicio1-imagenes_imagen:hover {
+
+    scale: 1.2;
+}
+
+
+.contenido {
+    position: fixed;
+    display: none;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    width: 100%;
+}
+
+/*Stilos de calculadora*/
+.calculadora {
+    color: black;
+    padding: 20px;
+    font-family: var(--font-family--fantansy);
+    margin: auto;
+    width: 70%;
+    background-color: var(--naranja);
+    border: 4px solid white;
+    border-radius: 40px;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.calculadora-inputs {
+    display: flex;
+    height: auto;
+    width: 80%;
+    margin: 2% 10%;
+    padding: auto;
+}
+
+.calculadora-botones {
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.calculadora-titulo {
+    text-align: center;
+    margin: 10px;
+    text-shadow: 2px 2px white;
+}
+
+.calculadora-resultados {
+    display: block;
+}
+
+.calculadora-resultados_titulo {
+
+    text-align: center;
+    margin: 10px;
+    text-shadow: 2px 2px white;
+}
+
+.input{
+    height: 100%;
+    width: 45%;
+    margin: auto;
+    border-radius: 4px;
+    background-color: var(--azul);
+    border-radius: 15px;
+    /*color de letra al escribir*/
+    font-size: larger;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.input::placeholder {
+    font-size: large;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: auto;
+    font-family: var(--font-family--fantansy);
+    font-size: 3vh;
+    background-color: var(--azul);
+    border: 3px dashed black;
+}
+
+.button:hover {
+    border-radius: 30%;
+    color: white;
+    scale: 1.3;
+    background-color: var(--azul--animacion);
+    text-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+/*400px*/
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    .lista-grupo_alumno {
+        display: none;
+    }
+
+    .button {
+        font-size: 2vh;
+    }
+
+    .footer {
+
+
+        margin-top: 50px;
+        position: relative;
+        height: 5%;
+
+    }
+
+    .ejercicio1 {
+        height: auto;
+    }
+
+    .ejercicio1-imagenes {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .ejercicio1-imagenes_imagen {
+        margin: auto;
+        height: 100%;
+        width: 70%;
+        border: 5px dotted var(--azul);
+    }
+
+    .ejercicio1-parrafo {
+
+        margin: auto;
+        height: 100%;
+        width: 70%;
+        background-color: var(--naranja);
+
+    }
+}

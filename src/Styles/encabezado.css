@@ -1,0 +1,27 @@
+@import './Constantes.css';
+/*estilo de los encabezados*/
+
+.encabezado{
+    background-color: var(--naranja);
+    display: flex;
+    height: 10vh;
+    width: 100%;
+   }
+  
+  .encabezado-contactos{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    gap:15px
+    
+  }
+  .encabezado-contactos_titulo{
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+    max-width: 200px;
+  }
+.Linkedin{
+  display: block;
+  position: end;
+}

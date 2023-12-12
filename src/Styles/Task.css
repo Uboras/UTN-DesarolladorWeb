@@ -1,0 +1,16 @@
+.contenedor-task {
+background: linear-gradient(rgba(216, 137, 46, 0.822), var(--naranja));
+min-height: 65vh;
+width: 60%;
+margin: 10px auto;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 10px 10px 10px black;
+}
+
+.contenedor-task_titulo{
+    font-family: var( --font-family--fantansy);
+    text-shadow: 1px 1px 1px white;
+    color: black;
+    margin: 5px auto;
+}

@@ -1,0 +1,78 @@
+@import './Constantes.css';
+
+.registro-container {
+  border-radius: 20px;
+font-family: var(--font-family--fantansy);
+font-style:initial;}
+
+.registro-container {
+    height: 700px;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e6e0e0;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+  .registro-titulo{
+    padding-left: 20px;
+    margin: 0px;
+    font-size: 2.5em;
+  }
+  .form-fieldset_legend{
+margin: 20px;
+font-size: large;
+color: grey;
+  }
+.form-fieldset{
+  margin: 20px;
+  border: 2px solid #a7a5a5;
+  border-radius: 15px;
+}  
+
+  
+.inputReg {
+    color:black;
+    padding: 10px;
+    margin: 15px;
+    width: 90%;
+    background: rgb(235, 232, 232);
+    border: none;
+    border-bottom: 3px solid black;
+    
+  }
+  
+.inputReg:focus {
+  outline: none;
+  }
+.inputReg:hover{
+    background: rgb(214, 212, 212);
+    box-shadow: 2px 1px black;
+  }
+  
+  .buttonReg {
+    font-family: var(--font-family--fantansy);
+    text-shadow: 2px 2px  #c5c4c4;
+    border-radius: 15px;
+    margin: 0px;
+    margin-left: 20px;
+    height: 60px;
+    background-color: #c5c5c5;
+    font-size: 1.4em;
+    color: rgb(3, 3, 3);
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+      
+  }
+  .buttonReg:active{
+    box-shadow: none;
+  }
+  
+  .buttonReg:hover {
+    background-color: #45a049;
+  }
+
+ 

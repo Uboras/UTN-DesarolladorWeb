@@ -1,0 +1,148 @@
+/*responsiv*/
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    
+    .nav-links{
+        opacity: 0;
+    }
+    .nav-links_peque{
+      
+     opacity: 1;
+        
+        
+        }
+    .lista-grupo_alumno {
+        display: none;
+    }
+    
+    .footer {
+        position: absolute;
+        bottom: 0px;
+        height: 8%;
+        
+    }
+    .contenedor-taskItem_titulo {
+    
+        width: 50%;
+        
+      }
+      .encabezado-contactos_titulo{
+        display: none;
+      }
+      
+    }
+  
+  @media (min-height:560) and (max-height: 700px) {
+    .nav-links{
+        opacity: 0;
+    }
+ 
+    .footer {
+        position: absolute;
+        bottom: 0px;
+        height: 8%;
+        
+    }
+    .contenedor-taskItem_titulo {
+    
+        width: 100%;
+        
+      }
+      
+    .lista-grupo_alumno {
+        display: none;
+    }
+    .footer-titulo {
+        font-size: 1.5em;
+        text-shadow: 2px 2px white;
+      }
+
+}
+@media (min-width: 767px){
+    .nav-links_peque{
+      
+        opacity: 0;
+    
+    
+    }
+}
+  
+  
+  /*pequeñas pantallas*/
+  @media (max-width: 425px){
+    .nav-links{
+        display: none;
+    }
+    .nav-links_peque{
+  display: none;
+    }
+    .contenido {
+        position: fixed;
+        top: 50px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 18px;
+        width: 100%;
+  
+    }
+    .contenedor-producto{
+        display: none;
+    }
+    
+  
+    .contenido h3 {
+        text-align: center;
+    }
+   
+    .encabezado {
+        display: none;
+    }
+    
+    .lista-grupo_alumno {
+        display: none;
+    }
+    .contenedor-taskItem_titulo {
+    
+        width: 60%;
+        
+      }
+      .contenedor-taskItem {
+        width: 100%;}
+
+      .contenedor-taskForm{
+           display: none;
+          }
+  }
+  @media (max-height: 550px) {
+    .nav-links{
+        display: none;
+    }
+    .nav-links_peque{
+  display: none;
+    }
+    .contenido {
+        height: 400px;
+        display: block;
+  
+    }
+    .contenedor-producto{
+        display: none;
+    }
+    
+  
+    .contenido h3 {
+        text-align: center;
+    }
+   
+    .encabezado {
+        display: none;
+    }
+    
+    .lista-grupo_alumno {
+        display: none;
+    }
+.contenedor-task{
+    display: none;       
+  }
+}

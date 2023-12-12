@@ -1,0 +1,48 @@
+.contenedor-taskItem {
+width: 85%;
+background: rgba(197, 196, 193, 0.2);
+margin-top: 2px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 20px;
+padding: 5px;
+position:relative;
+}
+.contenedor-taskItem:hover{
+  background: rgba(197, 196, 193, 0.4);
+
+}
+.contenedor-taskItem:hover > .contenedor-taskItem_conteinerButton{
+display: flex;
+position: absolute;
+right: 0px;
+
+}
+.contenedor-taskItem_titulo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px;  
+  font-size: 1.5em;
+  padding-left: 10px;
+  width: 100%;
+  
+}
+
+.contenedor-taskItem_conteinerButton{
+  display: none;
+  margin: 0px;
+  
+}
+
+.contenedor-taskItem_conteinerButton-buttons {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  
+}
+
+
+.contenedor-taskItem_conteinerButton-buttons:active{
+  transform: scale(0.97);
+}

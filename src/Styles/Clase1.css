@@ -1,0 +1,147 @@
+/*sacarle los estilos al archivo*/
+body {
+    margin: 0;
+    padding: 0;
+    background: #0074d9;
+    font-family: Arial, sans-serif;
+    
+}
+/*estilo de los encabezados*/
+.encabezado{
+    background-color: orange;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    
+
+}
+
+.encabezado-contactos{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    gap:15px
+    
+}
+.encabezado-contactos_titulo{
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+  
+    max-width: 200px;
+}
+/*estilos del main*/
+main{
+    
+    color: orange;
+margin: 5%;;
+}
+
+.main-encabezado {
+
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-encabezado_titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/*estilos span generales por formatos*/
+#format-1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff9900; 
+}
+
+ #format-2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff9900; 
+}
+
+/* Estilo para el párrafo dentro de la sección */
+.main-encabezado p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+/*estilos del formulario*/
+
+.formularioSeguro-fielset {
+    margin: 15px 0;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+}
+
+.formularioSeguro-legend {
+    font-weight: bold;
+    color: orange;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    background: #094375;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el párrafo que muestra el valor del seguro */
+#valorSeguro {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #040505;
+}
+
+
+
+
+
+
+/*estilos por etiquetas*/
+ul{
+    list-style: none;
+}
+
+.icon{
+    height: 5vh;
+}
+
+/* Estilo general del formulario */
+#formularioSeguro {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #0074d9;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.main-formulario_titulo{
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px #040505;
+}

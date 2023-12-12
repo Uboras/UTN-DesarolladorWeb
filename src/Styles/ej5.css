@@ -1,0 +1,30 @@
+.ejecicio5 {
+  margin: 40px auto;
+  height: auto;
+  padding: 30px;
+  width: 35%;
+  top: 20vh;
+  left: 15%;
+  background-color: var(--naranja);
+  
+} 
+.ejericio5-parrafos{
+  height: 80px;
+}
+h3{
+  height: 15vh;
+  width: 70%;
+  padding: 20px;
+  }
+button{
+  margin: 20px;
+}
+p{
+  
+  color: black ;
+  font-size: 1em;
+  margin-top: 20px;
+margin: 0;
+text-shadow: 1px 1px grey;
+}
+  
